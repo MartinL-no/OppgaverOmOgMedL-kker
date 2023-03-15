@@ -6,7 +6,14 @@ namespace OppgaverOmOgMedLøkker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Oppgave1();
+        }
+        static void Oppgave1()
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Terje er kul");
+            }
         }
     }
 }
