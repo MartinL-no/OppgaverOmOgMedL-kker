@@ -11,6 +11,9 @@ namespace OppgaverOmOgMedLøkker
 
             Console.WriteLine("Oppgave2:");
             Oppgave2("Terje er kul");
+
+            Console.WriteLine("Oppgave3:");
+            Oppgave3();
         }
         static void Oppgave1()
         {
@@ -25,6 +28,16 @@ namespace OppgaverOmOgMedLøkker
             {
                 Console.WriteLine(character);
             }
+        }
+        static void Oppgave3()
+        {
+            int counter = 1;
+            while (counter < 10)
+            {
+                Console.WriteLine($"Runde nummer: {counter}");
+                counter++;
+            }
+            
         }
     }
 }
